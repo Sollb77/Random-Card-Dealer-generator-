@@ -1,1 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.body{
+    background-color: green;
+}
+.carta1{
+    background-color: white;
+}
