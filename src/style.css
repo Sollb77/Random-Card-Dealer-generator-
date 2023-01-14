@@ -6,7 +6,7 @@ body {
 }
 .carta1 {
   margin: 0px auto;
-  width: 30%;
+  width: 300px;
   height: 500px;
   background-color: white;
   margin-top: 50px;
@@ -25,7 +25,7 @@ body {
 
 #heart2 {
   position: relative;
-  top: 60%;
+  top: 63%;
   left: 30%;
   scale: 2.5;
   padding: 5%;;
@@ -35,7 +35,7 @@ body {
 #numero {
   margin: 0px auto;
   position: relative;
-  top: 3%;
+  top: 5%;
 
   scale: 3.5;
 }
