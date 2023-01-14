@@ -1,7 +1,41 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
-.body{
-    background-color: green;
+
+body {
+  background-color: green;
+  display: flex;
+  align-items: center;
 }
-.carta1{
-    background-color: white;
+.carta1 {
+  margin: 0px auto;
+  width: 30%;
+  height: 500px;
+  background-color: white;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#heart1 {
+  position: relative;
+  top: 5%;
+  left: 5%;
+  scale: 2.5;
+  padding: 5%;
+  width: 5%;
+}
+
+#heart2 {
+  position: relative;
+  top: 60%;
+  left: 30%;
+  scale: 2.5;
+  padding: 5%;;
+  transform: rotate(180deg);
+}
+
+#numero {
+  margin: 0px auto;
+  position: relative;
+  top: 3%;
+
+  scale: 3.5;
 }
