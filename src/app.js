@@ -12,10 +12,10 @@ window.onload = function() {
 
   Heart2.innerHTML = Simbolo[EligeSimbolo];
   Numero.innerHTML = cardList[EligeNumero];
+
   if (Heart1.innerText === "♥" || Heart1.innerText === "♦") {
     Heart1.style.color = "red";
-  }
-  if (Heart2.innerText === "♥" || Heart2.innerText === "♦") {
+    Numero.style.color = "red";
     Heart2.style.color = "red";
   }
 };
